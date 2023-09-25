@@ -10,6 +10,8 @@ Find the difference between the sum of the squares of the first one hundred natu
 */
 
 int main() {
+    std::cout << "The difference between the sum of the squares of the first one hundred natural numbers and the square of the sum:" << '\n';
+    std::cout << func::square_of_sum_sum_of_squares_difference(1, 100) << '\n';
 
     return 0;
 }
